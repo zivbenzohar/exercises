@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    margin-top: 41px;
+    height: 123px;
+}
+
+#logo {
+    background-image: url("../images/terminal-solid.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 40px;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+#logo span {
+    font-family:'Nunito';
+    padding-left: 8px;
+    color: #3E3F43;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    width: 154px;
+    height: 33px;
+}
+
+main {
+    width: 100%;
+}
+
+#area1 {
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+    background-color: #F9BDBD
+}
+
+.rec1 {
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+}
+
+.moon {
+    position: absolute;
+    width: 277;
+    height: 306px;
+    left: 78px;
+    top: 288px;
+}
+
+.text1 {
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+.text2 {
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 270px;
+    font-family:'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.about {
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family:'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.text3 {
+    margin-left: 40px;
+    margin-top: 24px;
+    font-family:'Rubik';
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.fullex h2 {
+    margin-top: 83px;
+    margin-left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.ex {
+    margin-top: 24px;
+    display:inline-block;
+    width: 200px;
+    height: 264px;
+}
+
+.ex1 {
+    background-color:#FDEDE5;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.ex2 {
+    background-color:#EBF1FF;
+    border-radius: 15px;
+    margin-left: 24px;
+}
+
+.ex3 {
+    background-color:#EBFFEC;
+    border-radius: 15px;
+    margin-left: 24px;
+}
+
+.ex4 {
+    background-color:#FFEBFC;
+    border-radius: 15px;
+    margin-left: 24px;
+}
+
+.ex5 {
+    background-color:#FFFEEB;
+    border-radius: 15px;
+    margin-left: 24px;
+}
+
+
+.img1 {
+    width: 80px;
+    height: 80px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.img3 {
+    width: 80px;
+    height: 80px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.img4 {
+    width: 80px;
+    height: 80px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.img5 {
+    width: 80px;
+    height: 80px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.ex h4 {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.view1 {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.view2 {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.view3 {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.view4 {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.view5 {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.view1 a {
+    color: #171F46;
+    top: 20px;
+    margin-left: 45px;
+    font-family: 'Rubik';
+}
+
+.view2 a {
+    color: #171F46;
+    top: 20px;
+    margin-left: 45px;
+    font-family: 'Rubik';
+}
+.view3 a {
+    color: #171F46;
+    top: 20px;
+    margin-left: 45px;
+    font-family: 'Rubik';
+}
+.view4 a {
+    color: #171F46;
+    top: 20px;
+    margin-left: 45px;
+    font-family: 'Rubik';
+}
+.view5 a {
+    color: #171F46;
+    top: 20px;
+    margin-left: 45px;
+    font-family: 'Rubik';
+}
+
+.language h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+}
+
+.language ul{
+    margin-top: 24px;
+    margin-left: 70px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.area2 {
+    width: 1120px;
+    height: 508px;
+    margin-left: 40px;
+    margin-top: 104px;
+    background-color: #F9BDBD;
+}
+
+.jasmin {
+    margin-top: 100px;
+    margin-left: 270px;
+}
+footer {
+    margin-top: 271px;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 301px;
+}
+
+.foot h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 18px;
+    top: 32px;
+    margin-left: 40px;
+    color: #333333;
+}
+
+.foot a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 14px;
+    color: #8D8D8D;
+    margin-left: 40px;
+}
+
+.foot h6{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 12px;
+    color: #8D8D8D;
+    margin-left: 40px;
+}
